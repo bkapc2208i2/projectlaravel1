@@ -27,3 +27,6 @@ Route::post('/register',[AccountController::class,'register']);
 Route::post('/login',[AccountController::class,'login']);
 
 
+Route::get('/choi-choi',function(){
+
+});
